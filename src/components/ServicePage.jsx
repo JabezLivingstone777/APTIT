@@ -48,7 +48,7 @@ const ServicePage = () => {
         const key = data.intro.animationKey;
         let anim;
         if (key === 'mobile') {
-          anim = await import('../assets/Mobile app development & concept user interface design uiux.json');
+          anim = await import('../assets/mobile-app-dev-uiux.json');
         } else if (key === 'web') {
           anim = await import('../assets/webdev.json');
         } else if (key === 'staffAugmentation') {

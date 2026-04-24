@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import loaderVideo from "../assets/Techeminence/Sequence 02.webm";
+import loaderVideo from "../assets/Techeminence/sequence-02.webm";
 import "./Preloader.css";
 
 const Preloader = () => {
