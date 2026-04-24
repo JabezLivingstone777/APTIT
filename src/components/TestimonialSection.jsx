@@ -6,17 +6,17 @@ const TestimonialSection = () => {
 
   const testimonials = [
     {
-      text: "APTIT Professional Services provided qualified candidates to support our business and are always willing to go the extra mile in making sure that our staffing needs are met. I highly recommend APTIT Professional Services to other engineering firms looking to increase their talent and ability to successfully complete projects on time.",
+      text: "APTIT  provided qualified candidates to support our business and are always willing to go the extra mile in making sure that our staffing needs are met. I highly recommend APTIT  to other engineering firms looking to increase their talent and ability to successfully complete projects on time.",
       author: "Chris Almond",
       image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
-      text: "APTIT Professional Services got amazing staff. The team took the time to not only understand my skillsets and experience, but also my career goals and what I was looking for in a position. I highly recommend them to anyone.",
+      text: "APTIT  got amazing staff. The team took the time to not only understand my skillsets and experience, but also my career goals and what I was looking for in a position. I highly recommend them to anyone.",
       author: "Robert R",
       image: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
-      text: "We ramped a fast-paced, very complex program and with APTIT Professional services, were able to not only meet but exceed customer expectations. We appreciate their hard work and we continue to lean on them for support.",
+      text: "We ramped a fast-paced, very complex program and with APTIT , were able to not only meet but exceed customer expectations. We appreciate their hard work and we continue to lean on them for support.",
       author: "Matt D",
       image: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=300"
     }

@@ -1,0 +1,129 @@
+{
+  "mobile-app-development": {
+    "id": "mobile-app-development",
+    "title": "Mobile App Development",
+    "breadcrumb": "Mobile App Development",
+    "heroBg": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80",
+    "intro": {
+      "title": "Android App Development",
+      "text": "We specialize in creating high-quality mobile applications that enhance user experience and drive business growth.",
+      "animationKey": "mobile"
+    },
+    "suite": {
+      "title": "Our custom mobile app development service Suite",
+      "items": [
+        { "id": 1, "title": "Mobile Application Development", "content": "APTIT PS is a leading software company with a decade of experience in mobile app development services.", "icon": "📱" },
+        { "id": 2, "title": "MVP and Prototype Development", "content": "Start your mobile app journey with a prototype and an MVP that can validate your idea and concept before you commit to a full-scale implementation.", "icon": "🛠️" },
+        { "id": 3, "title": "Mobile Web Optimization", "content": "Our team of mobile veterans optimize your web application to deliver an excellent experience across various mobile devices.", "icon": "🌐" },
+        { "id": 4, "title": "Cross-Platform Compatibility", "content": "Our team of mobile professionals help your business reach a wider audience with cross-platform compatibility.", "icon": "🔄" },
+        { "id": 5, "title": "UI/UX design", "content": "Apart from being a leading mobile solutions enterprise, we are also a UI UX design company that supports businesses.", "icon": "🎨" },
+        { "id": 6, "title": "Quality Assurance", "content": "Starting with discussion and improvements of your idea, we aim to embody your exact vision.", "icon": "✅" },
+        { "id": 7, "title": "Discovery phase", "content": "Implement your business idea consulting our experts and you get the best solutions ever.", "icon": "🔍" },
+        { "id": 8, "title": "IT System & Software Integration Services", "content": "APT IT  is a software integration company that can help you integrate enterprise applications.", "icon": "🔗" }
+      ]
+    },
+    "platforms": {
+      "title": "Mobile Application Platforms",
+      "items": [
+        { "title": "Native Apps", "imageKey": "nativeApp", "description": "Our mobile team creates apps for a specific mobile operating system, such as iOS or Android." },
+        { "title": "Cross-Platform Apps", "imageKey": "crossPlatformApp", "description": "Our team builds applications using frameworks including React Native or Flutter." },
+        { "title": "Web Apps", "imageKey": "webApp", "description": "Apart from cross-platform applications, we develop web-based mobile applications." },
+        { "title": "Hybrid Apps", "imageKey": "hybridApp", "description": "Combining the capabilities and elements of both native and web applications." }
+      ]
+    },
+    "process": {
+      "title": "Our Process",
+      "items": [
+        { "label": "Discovery Phase", "text": "We immerse in your business, identify challenges, explore opportunities, and set clear objectives." },
+        { "label": "Design Phase", "text": "User-focused, intuitive designs from wireframes to prototypes." },
+        { "label": "Development Phase", "text": "Robust, scalable apps built using cutting-edge technologies." },
+        { "label": "Testing Phase", "text": "Comprehensive QA for performance, security, and usability." },
+        { "label": "Deployment", "text": "Store compliance, optimization, and smooth launch." },
+        { "label": "Maintenance", "text": "Ongoing updates, enhancements, and 24/7 support." }
+      ],
+      "centerImageKey": "iphone"
+    },
+    "integrations": {
+      "title": "Integrations We Offer",
+      "items": [
+        { "label": "API Integration", "text": "Enable your app to connect with platforms via RESTful or GraphQL APIs." },
+        { "label": "Database Integration", "text": "Secure, real-time connections with MySQL, PostgreSQL, MongoDB, and Firebase." },
+        { "label": "Authentication", "text": "Industry-standard protocols (OAuth 2.0, OpenID, JWT, SSO)." },
+        { "label": "Enterprise System", "text": "Seamless sync with CRM, ERP, HRMS, and legacy systems." },
+        { "label": "Push Notification", "text": "Personalized, geo-targeted alerts using FCM, OneSignal, and APNs." },
+        { "label": "Messaging", "text": "In-app chat, VoIP, and video conferencing." }
+      ]
+    },
+    "whyChoose": {
+      "title": "Why Choose APT IT ?",
+      "items": [
+        { "title": "Streamlined UX", "text": "We design interfaces that eliminate friction and simplify navigation.", "bgColor": "bg-green-600" },
+        { "title": "Real-Time Access", "text": "Empower users with instant access to vital data and workflows.", "bgColor": "bg-red-600" },
+        { "title": "Seamless Onboarding", "text": "Minimize learning curves through guided onboarding.", "bgColor": "bg-yellow-500" },
+        { "title": "Building Loyalty", "text": "We engineer apps that turn users into advocates.", "bgColor": "bg-orange-500" }
+      ]
+    }
+  },
+  "web-design": {
+    "id": "web-design",
+    "title": "Web Design & Development",
+    "breadcrumb": "Web Design & Development",
+    "heroBg": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "intro": {
+      "title": "Web Design & Development",
+      "text": "We craft visually stunning and highly functional websites that deliver seamless user experiences and empower businesses to thrive online.",
+      "animationKey": "web"
+    },
+    "suite": {
+      "title": "Our Core Custom Web Development Offerings",
+      "items": [
+        { "id": 1, "title": "Web Application Development", "content": "Transform your business vision into powerful, feature-rich web applications.", "icon": "🖥️" },
+        { "id": 2, "title": "Website Redesign", "content": "Upgrade your digital presence with sleek UI and modern architecture.", "icon": "🔄" },
+        { "id": 3, "title": "Website Development", "content": "Clean, user-friendly, and mobile-optimized designs.", "icon": "💻" },
+        { "id": 4, "title": "UI/UX Design", "content": "Elegant, user-friendly interfaces that reflect your brand identity.", "icon": "🎨" },
+        { "id": 5, "title": "Web Portal Development", "content": "Robust, industry-specific web portals for real-time data access.", "icon": "🌐" },
+        { "id": 6, "title": "System Integration", "content": "Seamless integration of web apps with third-party platforms.", "icon": "🔌" },
+        { "id": 7, "title": "Maintenance & Support", "content": "Technical upkeep, bug fixes, and performance tuning.", "icon": "🛠️" },
+        { "id": 8, "title": "Custom CMS", "content": "Scalable, secure, and easy-to-use Content Management Systems.", "icon": "📂" }
+      ]
+    },
+    "platforms": {
+      "title": "Full Lifecycle Web Development",
+      "items": [
+        { "title": "Business Analysis", "imageKey": "businessAnalysisImg", "description": "We begin with deep-dive discovery sessions to define goals." },
+        { "title": "Strategic Planning", "imageKey": "strategicImg", "description": "Scope definition, timeline estimation, and roadmap creation." },
+        { "title": "Agile Development", "imageKey": "agileImg", "description": "Iterative delivery and continuous feedback." },
+        { "title": "Commitment", "imageKey": "commitmentImg", "description": "ISO-compliant standards and punctual delivery." }
+      ]
+    }
+  },
+  "staff-augmentation": {
+    "id": "staff-augmentation",
+    "title": "Staff Augmentation",
+    "breadcrumb": "Staff Augmentation",
+    "heroBg": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "intro": {
+      "title": "Staff Augmentation",
+      "text": "Our recruitment arm keeps evolving. At APT IT Professional Services, we don't just fill roles. We align with your vision of business transformation.",
+      "animationKey": "staffAugmentation"
+    },
+    "engagement": {
+      "title": "Our Engagement Models",
+      "items": [
+        { "title": "Product Development", "imageKey": "productChainImg", "description": "Bring us your idea, and we'll transform it into a fully functional product." },
+        { "title": "Team Extension", "imageKey": "teamLeaderImg", "description": "Extend your in-house capabilities with our vetted engineers." },
+        { "title": "Dedicated Team", "imageKey": "softwareEngineerImg", "description": "Stay in control with a handpicked team working exclusively for you." }
+      ]
+    },
+    "model": {
+      "title": "Our Model",
+      "text": "If you are planning for long-term innovation, having a dedicated offshore team is the best choice.",
+      "points": [
+        "Establish team continuity and ownership.",
+        "Build an environment aligned with your brand.",
+        "Ensure deep domain understanding."
+      ],
+      "imageKey": "modelImg"
+    }
+  }
+}

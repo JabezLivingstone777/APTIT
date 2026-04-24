@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { Link } from "react-router-dom";
-const JobSection = () => {
+
+const JobSection = memo(() => {
   return (
     <section className="relative py-20 bg-slate-900 text-white overflow-hidden">
       {/* Background Image with Overlay */}
@@ -42,6 +43,8 @@ const JobSection = () => {
       </div>
     </section>
   );
-};
+});
 
-export default JobSection;
+JobSection.displayName = "JobSection";
+
+export default JobSection;

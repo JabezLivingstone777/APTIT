@@ -70,7 +70,7 @@ const PortfolioPage = () => {
                         OUR EXPERTISE
                     </h1>
                     <p className="text-gray-600 leading-relaxed max-w-4xl mx-auto text-lg">
-                        APT IT Professional Services is a trusted partner for businesses
+                        APT IT  is a trusted partner for businesses
                         seeking digital transformation. We specialize in cutting-edge
                         mobile app development, custom web solutions, cloud infrastructure,
                         and IT consulting services designed to optimize operations and
@@ -162,7 +162,7 @@ const PortfolioPage = () => {
                 AUTHORISED PARTNERS
             </h2>
             <p className="text-gray-600 text-center leading-relaxed max-w-4xl mx-auto mb-16 text-lg">
-                APT IT Professional Services harnesses cutting-edge technologies and advanced platforms
+                APT IT  harnesses cutting-edge technologies and advanced platforms
                 to deliver impactful solutions in web and mobile app development, cloud infrastructure,
                 DevOps automation, and IT staffing. We collaborate with trusted technology partners to
                 ensure innovation, quality, and scalability for our clients.
@@ -174,7 +174,7 @@ const PortfolioPage = () => {
                     ABOUT US
                 </h2>
                 <p className="text-gray-600 leading-relaxed text-lg">
-                    Established in 2016, APT IT Professional Services has grown from a tech recruitment
+                    Established in 2016, APT IT  has grown from a tech recruitment
                     agency into a dynamic, forward-thinking IT enterprise that specializes in delivering
                     custom software development, enterprise-grade solutions, and strategic IT consulting
                     services. Headquartered in New York, we bridge global expertise in an agile environment
@@ -188,7 +188,7 @@ const PortfolioPage = () => {
                         Let’s Transform Your Ideas Into Reality
                     </h2>
                     <p className="text-gray-600 mb-8 text-lg max-w-3xl mx-auto leading-relaxed">
-                        At APT IT Professional Services, we’re here to help you navigate your digital transformation journey.
+                        At APT IT , we’re here to help you navigate your digital transformation journey.
                         Feel free to contact us for expert consultation and guidance tailored to your business needs.
                     </p>
                     <Link

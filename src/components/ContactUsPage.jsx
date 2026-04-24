@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, Mail, Clock, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Phone, Mail, Clock, MapPin } from 'lucide-react';
 
 const ContactUsPage = () => {
   const [formData, setFormData] = useState({

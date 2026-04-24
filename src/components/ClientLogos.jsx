@@ -32,6 +32,7 @@ const ClientLogos = () => {
               src={logo}
               alt={`Client Logo ${index + 1}`}
               className="inline-block mr-6 h-16 object-contain"
+              loading="lazy"
             />
           ))}
         </div>

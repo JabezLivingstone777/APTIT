@@ -1,5 +1,31 @@
 @import "tailwindcss";
 
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+
+  --animate-aurora: aurora 8s ease-in-out infinite alternate;
+
+  @keyframes aurora {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 50% 100%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 50% 0%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
 /* Smooth and minimal scroll styling for the orange sidebar */
 .left-scroll::-webkit-scrollbar {
   width: 10px;

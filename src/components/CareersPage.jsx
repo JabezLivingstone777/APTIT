@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Search, MapPin, Briefcase, Clock, ChevronDown, ChevronUp } from 'lucide-react';
-import Footer from './Footer'; // Adjust the import path according to your project structure
 
 const CareersPage = () => {
   const [searchQuery, setSearchQuery] = useState('');

@@ -49,7 +49,7 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-semibold text-slate-800 mb-6">ADDRESS</h3>
               <div className="text-gray-600">
-                <p className="font-medium mb-2">APT IT PROFESSIONAL SERVICES, INC</p>
+                <p className="font-medium mb-2">APT IT , INC</p>
                 <p>800 Third Avenue</p>
                 <p>FRNT A #1472</p>
                 <p>New York, NY 10022</p>
@@ -81,19 +81,19 @@ const Footer = () => {
               <h3 className="text-lg font-semibold text-slate-800 mb-6">Find Us And Say HAI</h3>
               <div className="space-y-3">
                 <div className="flex items-center text-gray-600">
-                  <img src={facebookIcon} alt="Facebook" className="h-6 w-6 mr-3" />
+                  <img src={facebookIcon} alt="Facebook" className="h-6 w-6 mr-3" loading="lazy" />
                   <a href="https://www.facebook.com/people/APTIT-Professional-Service/100066877321032/#" className="hover:text-orange-500 transition-colors">Facebook</a>
                 </div>
                 <div className="flex items-center text-gray-600">
-                  <img src={xIcon} alt="X" className="h-6 w-6 mr-3" />
+                  <img src={xIcon} alt="X" className="h-6 w-6 mr-3" loading="lazy" />
                   <a href="https://x.com/APTITServices" className="hover:text-orange-500 transition-colors">X</a>
                 </div>
                 <div className="flex items-center text-gray-600">
-                  <img src={instagramIcon} alt="Instagram" className="h-6 w-6 mr-3" />
+                  <img src={instagramIcon} alt="Instagram" className="h-6 w-6 mr-3" loading="lazy" />
                   <a href="https://www.instagram.com/aptitps/" className="hover:text-orange-500 transition-colors">Instagram</a>
                 </div>
                 <div className="flex items-center text-gray-600">
-                  <img src={linkedinIcon} alt="LinkedIn" className="h-6 w-6 mr-3" />
+                  <img src={linkedinIcon} alt="LinkedIn" className="h-6 w-6 mr-3" loading="lazy" />
                   <a href="https://www.linkedin.com/company/aptit-professional-services-usa/" className="hover:text-orange-500 transition-colors">LinkedIn</a>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="border-t border-gray-200 mt-12 pt-8 text-center">
             <p className="text-gray-500">
-              ©Copyright 2025 <span className="text-orange-500 font-medium">APTITPS</span> All Rights Reserved
+              ©Copyright 2026 <span className="text-orange-500 font-medium">APT IT</span> All Rights Reserved
             </p>
           </div>
         </div>
@@ -115,14 +115,11 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex space-x-6 text-sm">
               <Link to="/privacy-policy" className="hover:text-orange-400 transition-colors">Privacy Policy</Link>
+              <Link to="/terms-and-conditions" className="hover:text-orange-400 transition-colors">Terms & Conditions</Link>
               <Link to="/about" className="hover:text-orange-400 transition-colors">About Us</Link>
               <Link to="/contact-us" className="hover:text-orange-400 transition-colors">Contact Us</Link>
             </div>
-            <div className="text-sm">
-              <span>©Copyright 2025 </span>
-              <span className="text-orange-400">APTITPS</span>
-              <span> All Rights Reserved</span>
-            </div>
+           
           </div>
         </div>
       </div>

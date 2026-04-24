@@ -2,45 +2,56 @@ import React, { useState } from "react";
 import aptitpsLogo from "../assets/aptitps-logo.png";
 import { Phone, Mail, ChevronDown, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 const Header = () => {
+  const [scrolled, setScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const navigate = useNavigate();
 
+  React.useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const location = useLocation();
+  const isLightPage = ["/privacy-policy", "/terms-and-conditions"].includes(location.pathname);
+
   return (
     <>
       {/* Fixed Header */}
-      {/* <header className="bg-slate-900 text-white fixed w-full top-0 left-0 z-50 shadow-md h-16 lg:h-20"> */}
-      <header className="fixed w-full top-0 left-0 z-50 bg-slate-900  text-white shadow-md h-16 lg:h-20 transition-all duration-300">
-      <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-16 lg:h-20">
-            {/* Logo */}
-            <div className="flex items-center space-x-0.5">
+      <header
+        className={`fixed w-full top-0 left-0 z-50 transition-all duration-500 ${scrolled
+            ? "bg-white shadow-xl py-2"
+            : (isLightPage ? "bg-white shadow-sm" : "bg-transparent")
+          } py-4 lg:py-6 ${scrolled || isLightPage ? "text-black" : "text-white"}`}
+      >
+        <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between">
+            <Link to="/" className="flex items-center space-x-0.5 cursor-pointer">
               <img
                 src={aptitpsLogo}
                 alt="APTITPS Logo"
                 className="h-12 w-10000 object-contain"
                 style={{ maxWidth: "160px" }}
               />
-              {/* <div className="text-sm">
-                <div className="font-bold text-white">APT IT</div>
-                <div className="text-xs text-gray-300">Professional Services</div>
-              </div> */}
-            </div>
+            </Link>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-8">
               <Link
                 to="/"
-                className="font-bold text-white text-lg hover:text-orange-400 transition-colors"
+                className="font-bold text-lg hover:text-orange-400 transition-colors"
               >
                 Home
               </Link>
               <Link
                 to="/about"
-                className="font-bold text-white text-lg hover:text-orange-400 transition-colors"
+                className="font-bold text-lg hover:text-orange-400 transition-colors"
               >
                 About Us
               </Link>
@@ -53,7 +64,7 @@ const Header = () => {
               >
                 <button
                   type="button"
-                  className="font-bold text-white text-lg hover:text-orange-400 transition-colors flex items-center space-x-1 focus:outline-none"
+                  className="font-bold text-lg hover:text-orange-400 transition-colors flex items-center space-x-1 focus:outline-none"
                   onClick={() => {
                     navigate("/services");
                     setIsServicesOpen(!isServicesOpen);
@@ -100,21 +111,21 @@ const Header = () => {
 
               <Link
                 to="/careers"
-                className="font-bold text-white text-lg hover:text-orange-400 transition-colors"
+                className="font-bold text-lg hover:text-orange-400 transition-colors"
               >
                 Careers
               </Link>
 
-               <Link
+              <Link
                 to="/portfolio"
-                className="font-bold text-white text-lg hover:text-orange-400 transition-colors"
+                className="font-bold text-lg hover:text-orange-400 transition-colors"
               >
                 Portfolio
               </Link>
 
               <Link
                 to="/contact-us"
-                className="font-bold text-white text-lg hover:text-orange-400 transition-colors"
+                className="font-bold text-lg hover:text-orange-400 transition-colors"
               >
                 Contact Us
               </Link>
@@ -151,7 +162,7 @@ const Header = () => {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.3 }}
-                className="lg:hidden bg-slate-800 py-4"
+                className="lg:hidden bg-slate-900/90 backdrop-blur-xl py-6 shadow-2xl border-t border-white/10"
               >
                 <nav className="flex flex-col space-y-4">
                   <Link
